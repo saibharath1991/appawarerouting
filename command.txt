@@ -1,0 +1,22 @@
+sudo mn --custom /home/saibharath/Documents/AppAwareRouting/erdos_mininet.py --topo=mytopo --test pingall
+
+
+TODO:
+
+1. Set bandwidth custom for each link.
+2. Set drop percent, latency for each link.
+3. SSH and run the commands and redirect output
+4. Compute fault tolerance based on topology
+5. Capture TOTAL PACKET LOSS, LATENCY: RTT => MIN, AVG, MAX, MDEV
+6. IPERF for capturing bandwidth
+
+CASE A:
+SPARSE DISJOINT GRAPH
+	performance in 3 disjoint set among 50 nodes
+	compare performance for 100, 150 nodes
+	implement algorithm for utility parameters
+	
+ULTRA DENSE MESH
+	performance among 50 nodes
+	compare performance for 100, 150 nodes
+	implement algorithm for utility parameters

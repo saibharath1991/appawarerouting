@@ -1,0 +1,79 @@
+saibharath@saibharath-VirtualBox:~/mininet/mininet/custom$ sudo mn --custom /home/saibharath/Documents/AppAwareRouting/erdos_mininet.py --topo=mytopo --test pingall
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 
+*** Adding switches:
+s11 s21 s22 s31 s32 s41 s42 s51 s52 s61 s62 s71 s72 s81 s82 s91 s92 s101 s102 s111 s112 s121 s122 s131 s132 s141 s142 s151 s152 s161 s162 s171 s172 s181 s182 s191 s192 s201 s202 s211 s212 s221 s222 s231 s232 s241 s242 s251 s252 s261 s262 s271 s272 s281 s282 s291 s292 s301 s302 s311 s312 s321 s322 s331 s332 s341 s342 s351 s352 s361 s362 s371 s372 s381 s382 s391 s392 s401 s402 s411 s412 s421 s422 s431 s432 s441 s442 s451 s452 s461 s462 s471 s472 s481 s482 s491 s502 
+*** Adding links:
+(h1, s11) (h2, s21) (h3, s31) (h4, s41) (h5, s51) (h6, s61) (h7, s71) (h8, s81) (h9, s91) (h10, s101) (h11, s111) (h12, s121) (h13, s131) (h14, s141) (h15, s151) (h16, s161) (h17, s171) (h18, s181) (h19, s191) (h20, s201) (h21, s211) (h22, s221) (h23, s231) (h24, s241) (h25, s251) (h26, s261) (h27, s271) (h28, s281) (h29, s291) (h30, s301) (h31, s311) (h32, s321) (h33, s331) (h34, s341) (h35, s351) (h36, s361) (h37, s371) (h38, s381) (h39, s391) (h40, s401) (h41, s411) (h42, s421) (h43, s431) (h44, s441) (h45, s451) (h46, s461) (h47, s471) (h48, s481) (h49, s491) (s11, s22) (s11, s32) (s21, s32) (s21, s42) (s22, h2) (s31, s42) (s31, s52) (s32, h3) (s41, s52) (s41, s62) (s42, h4) (s51, s62) (s51, s72) (s52, h5) (s61, s72) (s61, s82) (s62, h6) (s71, s82) (s71, s92) (s72, h7) (s81, s92) (s81, s102) (s82, h8) (s91, s102) (s91, s112) (s92, h9) (s101, s122) (s102, h10) (s111, s122) (s111, s132) (s112, h11) (s121, s132) (s121, s142) (s122, h12) (s131, s142) (s131, s152) (s132, h13) (s141, s152) (s141, s162) (s142, h14) (s151, s162) (s151, s172) (s152, h15) (s161, s172) (s161, s182) (s162, h16) (s171, s182) (s171, s192) (s172, h17) (s181, s192) (s181, s202) (s182, h18) (s191, s202) (s191, s212) (s192, h19) (s201, s212) (s201, s222) (s202, h20) (s211, s222) (s211, s232) (s212, h21) (s221, s242) (s221, s472) (s222, h22) (s231, s242) (s231, s252) (s232, h23) (s241, s252) (s241, s262) (s242, h24) (s251, s262) (s251, s272) (s252, h25) (s261, s272) (s261, s282) (s262, h26) (s271, s282) (s271, s292) (s272, h27) (s281, s292) (s281, s302) (s282, h28) (s291, s302) (s291, s312) (s292, h29) (s301, s312) (s301, s322) (s302, h30) (s311, s322) (s311, s332) (s312, h31) (s321, s332) (s321, s342) (s322, h32) (s331, s342) (s331, s352) (s332, h33) (s341, s352) (s341, s362) (s342, h34) (s351, s362) (s351, s372) (s352, h35) (s361, s372) (s362, h36) (s371, s382) (s371, s392) (s372, h37) (s381, s392) (s381, s402) (s382, h38) (s391, s402) (s391, s412) (s392, h39) (s401, s412) (s401, s422) (s402, h40) (s411, s422) (s411, s432) (s412, h41) (s421, s432) (s421, s442) (s422, h42) (s431, s442) (s431, s452) (s432, h43) (s441, s452) (s441, s462) (s442, h44) (s451, s462) (s451, s472) (s452, h45) (s461, s472) (s461, s482) (s462, h46) (s471, s482) (s472, h47) (s481, s502) (s482, h48) (s491, s502) (s502, h50) 
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 
+*** Starting controller
+c0 
+*** Starting 97 switches
+s11 s21 s22 s31 s32 s41 s42 s51 s52 s61 s62 s71 s72 s81 s82 s91 s92 s101 s102 s111 s112 s121 s122 s131 s132 s141 s142 s151 s152 s161 s162 s171 s172 s181 s182 s191 s192 s201 s202 s211 s212 s221 s222 s231 s232 s241 s242 s251 s252 s261 s262 s271 s272 s281 s282 s291 s292 s301 s302 s311 s312 s321 s322 s331 s332 s341 s342 s351 s352 s361 s362 s371 s372 s381 s382 s391 s392 s401 s402 s411 s412 s421 s422 s431 s432 s441 s442 s451 s452 s461 s462 s471 s472 s481 s482 s491 s502 ...
+*** Waiting for switches to connect
+s41 s42 s51 s52 s61 s62 s71 s72 s81 s82 s91 s92 s101 s102 s111 s112 s121 s122 s131 s132 s141 s142 s151 s152 s161 s162 s171 s172 s181 s182 s191 s192 s201 s202 s211 s212 s221 s222 s231 s232 s241 s242 s251 s252 s261 s262 s271 s272 s281 s282 s291 s292 s301 s302 s311 s312 s321 s322 s331 s332 s341 s342 s351 s352 s361 s362 s371 s372 s381 s382 s391 s392 s401 s402 s411 s412 s421 s422 s431 s432 s441 s442 s451 s452 s461 s462 s471 s472 s481 s482 s491 s502 s11 s21 s22 s31 s32 
+*** Ping: testing ping reachability
+h1 -> h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h2 -> h1 h3 h4 h5 h6 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h3 -> h1 h2 h4 h5 h6 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h4 -> h1 h2 h3 h5 h6 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h5 -> h1 h2 h3 h4 h6 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h6 -> h1 h2 h3 h4 h5 h7 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h7 -> h1 h2 h3 h4 h5 h6 h8 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h8 -> h1 h2 h3 h4 h5 h6 h7 h9 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h9 -> h1 h2 h3 h4 h5 h6 h7 h8 h10 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h10 -> h1 h2 h3 h4 h5 h6 h7 h8 h9 h11 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h11 -> h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h12 -> X X X X X X X X X X X h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h13 -> X X X X X X X X X X X h12 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h14 -> X X X X X X X X X X X h12 h13 h15 h16 h17 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h15 -> X X X X X X X X X X X h12 h13 h14 h16 h17 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h16 -> X X X X X X X X X X X h12 h13 h14 h15 h17 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h17 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h18 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h18 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h19 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h19 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h18 h20 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h20 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h18 h19 h21 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h21 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h18 h19 h20 h22 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h22 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h23 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h23 -> X X X X X X X X X X X h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+h24 -> X X X X X X X X X X X X X X X X X X X X X X X h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h25 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h26 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h27 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h28 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h29 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h30 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h31 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h32 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h33 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h34 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h35 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h36 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h37 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h38 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h39 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h40 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h40 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h41 h42 h43 h44 h45 h46 h47 h48 X X 
+h41 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h42 h43 h44 h45 h46 h47 h48 X X 
+h42 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h43 h44 h45 h46 h47 h48 X X 
+h43 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h44 h45 h46 h47 h48 X X 
+h44 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h45 h46 h47 h48 X X 
+h45 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h46 h47 h48 X X 
+h46 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h47 h48 X X 
+h47 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h48 X X 
+h48 -> X X X X X X X X X X X X X X X X X X X X X X X h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 X X 
+h49 -> X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X h50 
+h50 -> X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X h49 
+*** Results: 65% dropped (844/2450 received)
+*** Stopping 1 controllers
+c0 
+*** Stopping 190 links
+..............................................................................................................................................................................................
+*** Stopping 97 switches
+s11 s21 s22 s31 s32 s41 s42 s51 s52 s61 s62 s71 s72 s81 s82 s91 s92 s101 s102 s111 s112 s121 s122 s131 s132 s141 s142 s151 s152 s161 s162 s171 s172 s181 s182 s191 s192 s201 s202 s211 s212 s221 s222 s231 s232 s241 s242 s251 s252 s261 s262 s271 s272 s281 s282 s291 s292 s301 s302 s311 s312 s321 s322 s331 s332 s341 s342 s351 s352 s361 s362 s371 s372 s381 s382 s391 s392 s401 s402 s411 s412 s421 s422 s431 s432 s441 s442 s451 s452 s461 s462 s471 s472 s481 s482 s491 s502 
+*** Stopping 50 hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 
+*** Done
+completed in 6585.866 seconds
